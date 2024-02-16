@@ -1,7 +1,7 @@
 # WeatherAlerts, Ilya Shytsko
 ===============
 
-Welcome to the Code Challenge Shytsko project! This README file provides simple instructions on how to set up and run the project on your local machine. The project uses Swift Package Manager (SPM), and CocoaPods is not required.
+Welcome to the WeatherAlerts Shytsko project! This README file provides simple instructions on how to set up and run the project on your local machine. The project uses Swift Package Manager (SPM), and CocoaPods is not required.
 
 
 Prerequisites 
