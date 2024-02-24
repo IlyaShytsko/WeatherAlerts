@@ -10,12 +10,14 @@ import UIKit
 final class WeatherAlertsViewModel {
     
     init(alerts: WeatherAlertsModel) {
-        self.alerts = alerts.features.map { WeatherAlertsModel.AlertProperties (
+        let uniqueAlerts = alerts.features.removingDuplicates().map { WeatherAlertsModel.AlertProperties (
             id: $0.properties.id,
             event: $0.properties.event,
             effective: $0.properties.effective,
             ends: $0.properties.ends,
             senderName: $0.properties.senderName)}
+        
+        self.alerts = uniqueAlerts
     }
     
     let alerts: [WeatherAlertsModel.AlertProperties]

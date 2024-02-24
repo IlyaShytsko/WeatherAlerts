@@ -31,6 +31,7 @@
 		D36240652B7BFCF4006E3560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36240632B7BFCF4006E3560 /* LaunchScreen.storyboard */; };
 		D36240702B7BFCF4006E3560 /* WeatherAlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362406F2B7BFCF4006E3560 /* WeatherAlertsTests.swift */; };
 		D382A5172B7E1B690048E067 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A5162B7E1B690048E067 /* UIImage.swift */; };
+		D397621C2B8A6C1700515C3B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397621B2B8A6C1700515C3B /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		D362406B2B7BFCF4006E3560 /* WeatherAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D362406F2B7BFCF4006E3560 /* WeatherAlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAlertsTests.swift; sourceTree = "<group>"; };
 		D382A5162B7E1B690048E067 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		D397621B2B8A6C1700515C3B /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D35A06CA2B7CBDD800C78C7C /* Reusable.swift */,
 				D35A06E62B7D1B9900C78C7C /* Error.swift */,
 				D382A5162B7E1B690048E067 /* UIImage.swift */,
+				D397621B2B8A6C1700515C3B /* Array.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				D35A06D72B7D14F800C78C7C /* ApiRouter.swift in Sources */,
 				D35A06C72B7CA49300C78C7C /* WeatherViewModel.swift in Sources */,
 				D35A06DB2B7D16B800C78C7C /* NetworkServiceError.swift in Sources */,
+				D397621C2B8A6C1700515C3B /* Array.swift in Sources */,
 				D35A06C92B7CBA5400C78C7C /* WeatherAlertCell.swift in Sources */,
 				D36240592B7BFCF2006E3560 /* AppDelegate.swift in Sources */,
 				D35A06D92B7D151600C78C7C /* DataResponse.swift in Sources */,
